@@ -1,0 +1,105 @@
+#home-pic{
+    background-image: url("https://i.pinimg.com/originals/bd/80/d6/bd80d6f11faacd2538018aa6ff1cfd94.jpg"); 
+    height: 100vw;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/bd/80/d6/bd80d6f11faacd2538018aa6ff1cfd94.jpg"); 
+    height: 100vw; 
+}
+
+.clearfix{
+    width: 70vw;
+    background-color: rgba(214, 214, 210, 0.943);
+    opacity: 0.9;
+    padding: 30px;
+}
+
+.home-banner{
+    width: 50vw;
+    height: auto;
+    background-color: rgba(51, 51, 51, 0.5);
+    margin-top: 150px;
+    padding: 30px;
+}
+
+.clearfix-img {
+    width: 25vw;
+    float: left; 
+    margin: 5px;
+    padding: 10px;
+}
+
+.carousel-item {
+    float: center
+;
+}
+
+.clearfix-p {
+    text-align: justify;
+    font-size: 15px;
+    padding: 0, 25px;
+}
+
+.table-contatiner {
+    width: 70vw;
+    background-color: rgba(214, 214, 210, 0.943);
+    opacity: 0.9;
+    padding: 30px;
+    display: flex;
+}
+
+.location {
+    background-color: rgba(214, 214, 210, 0.943);
+    padding: 10px;
+    display: flex;
+}
+
+
+.card-group {
+    position: relative;
+
+}
+
+.card-1 {
+    top: 50%;
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 100vh;
+  }
+  
+  .box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 0;
+  }
+  
+  .box > img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    transition: .5s;
+  }
+  
+  .box > span {
+    font-size: 3.8vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+  }
+  
+  .box:hover { flex: 1 1 50%; }
+  .box:hover > img {
+    width: 100%;
+    height: 100%;
+  }
